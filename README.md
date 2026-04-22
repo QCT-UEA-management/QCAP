@@ -144,7 +144,6 @@ git push origin <your-branch>
 Then on GitHub, click **Compare & pull request**. In the PR description, include:
 
 - What algorithm / molecule / backend the entry covers.
-- The classical reference energy your runner prints and how it compares to a known value.
 - Any hardware access requirements or limitations reviewers should know about.
 
 A maintainer will review the PR, request changes if needed, and merge once it is ready.
