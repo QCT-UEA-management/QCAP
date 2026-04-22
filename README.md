@@ -99,9 +99,9 @@ Contributions are welcome. The workflow is fork → branch → pull request.
 
 ```bash
 # Fork the repo on GitHub, then:
-git clone https://github.com/<your-username>/chem-workflow.git
-cd chem-workflow
-git remote add upstream https://github.com/<org>/chem-workflow.git
+git clone https://github.com/<your-username>/QCAP.git
+cd QCAP
+git remote add upstream https://github.com/<org>/QCAP.git
 ```
 
 ### 2. Create a branch
