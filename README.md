@@ -12,21 +12,21 @@ Please note that QCAP is not a framework. It introduces no abstraction layers, n
 ### 🟢 Done · 🟡 In progress · 🔴 Planned
 
 
-### Variational Quantum Eigensolver (VQE) 🟡  
+#### Variational Quantum Eigensolver (VQE) 🟡  
 - Ansätze: UCCSD
 - SDKs: Qiskit, PennyLane, CUDA-Q
 - Runners: Statevector, IQM QPU @ LRZ
 
 
-###  Quantum Imaginary Time Evolution (QITE) 🔴
+####  Quantum Imaginary Time Evolution (QITE) 🔴
 - SDKs: Qiskit, PennyLane, CUDA-Q
 
 
-###  Quantum-Selected Configuration Interaction (QSCI) 🔴
+####  Quantum-Selected Configuration Interaction (QSCI) 🔴
 - SDKs: Qiskit, PennyLane, CUDA-Q
 
 
-###  Time-Evolved QSCI (TE-QSCI) 🔴
+####  Time-Evolved QSCI (TE-QSCI) 🔴
 - SDKs: Qiskit, PennyLane, CUDA-Q
 
 
@@ -156,6 +156,8 @@ A maintainer will review the PR, request changes if needed, and merge once it is
 | Name | Email |
 |------|-------|
 | Mario Hernandez Vera | mario.hernandezvera@lrz.de |
+| Luigi Iapichino | luigi.iapichino@lrz.de |
+
 
 
 
