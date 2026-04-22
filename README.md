@@ -72,7 +72,7 @@ The script loads it automatically via `python-dotenv`.
    * `ansatz.py` — defines the parametrized circuit or operator pool
    * At least one simulator runner (e.g., `run_aer.py`)
 
-3. Optionally add real-hardware runners (e.g., `run_lrz.py`) if access is available.
+3. Optionally add real-hardware runners (e.g., `run_lrz-mqss-qpu.py`) if access is available.
 
 4. Verify the implementation: `uv run python run_aer.py`. 
    Ensure it runs without errors and prints the quantum result alongside the PySCF classical reference energy.
