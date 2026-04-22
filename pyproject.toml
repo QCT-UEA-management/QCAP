@@ -1,0 +1,44 @@
+[project]
+name = "chem-workflow"
+version = "0.1.0"
+description = "Reference implementations for hybrid quantum chemistry workflows"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+
+# dependencies should contain things every installation needs
+dependencies = [
+    "matplotlib>=3.10.8",
+    "pyscf>=2.11.0",
+]
+
+[project.optional-dependencies]
+qiskit = [
+    "mqss-qiskit>=0.2.0",
+    "qiskit-nature>=0.7.2",
+    "qiskit-aer>=0.17.0",
+    "python-dotenv>=1.0",
+]
+
+pennylane = [
+    "pennylane==0.40.0",
+    "autoray==0.7.0",
+    "mqss-pennylane-adapter",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "ruff>=0.9",
+]
+docs = [
+    "mkdocs",
+    "mkdocs-material",
+]
+
+[tool.uv]
+conflicts = [
+    [
+        { extra = "qiskit" },
+        { extra = "pennylane" },
+    ],
+]
