@@ -44,7 +44,7 @@ uv sync --extra qiskit
 # or
 uv sync --extra pennylane
 # or both
-uv sync --extra qiskit --extra pennylane
+uv sync --extra cudaq
 ```
 
 Run any entry:

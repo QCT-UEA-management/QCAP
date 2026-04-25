@@ -25,6 +25,11 @@ pennylane = [
     "mqss-pennylane-adapter",
 ]
 
+cudaq = [
+    "cudaq>=0.14.0",
+    "cuda-quantum-cu13>=0.14.0",
+]
+
 [dependency-groups]
 dev = [
     "pytest>=8",
@@ -40,5 +45,6 @@ conflicts = [
     [
         { extra = "qiskit" },
         { extra = "pennylane" },
+        { extra = "cudaq" },
     ],
 ]
